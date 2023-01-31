@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 15px/20px arial;
+    background-color: #bdb6b6;
+    color: #333;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #eaeaea;
+}
+
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 10px;
+}
+
+.header a:hover{
+    background-color: #bdb6b6;
+    color: #333;
+}
+
+.header .hack a{
+    margin-left: 230px;
+    padding: 5px;
+    background-color: black;
+    color: green;
+}
+
+.header .hack a:hover{
+    padding: 5px;
+    background-color: green;
+    color: black;
+}
+
+.hero{
+    height: 350px;
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    border-top: 5px solid #bdb6b6;
+    border-bottom: 5px solid #bdb6b6;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 30px;
+}
+
+.saya{
+    text-decoration: none;
+    color: salmon;
+}
+
+.saya:hover{
+    color: #333;
+}
+
+.content h2{
+    padding-top: 10px;
+}
+
+.content .penulis{
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer .saya:hover{
+    color: #eaeaea;
+}
+
+
+
